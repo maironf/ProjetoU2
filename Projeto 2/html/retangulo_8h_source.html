@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projeto 2: Código-Fonte de retangulo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="misterm2.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Projeto 2
+   &#160;<span id="projectnumber">1.2.2 alfa beta gama test</span>
+   </div>
+   <div id="projectbrief">Tratamento de classes abstratas</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">retangulo.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="retangulo_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef RETANGULO_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define RETANGULO_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include&lt;<a class="code" href="figurageometrica_8h.html">figurageometrica.h</a>&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_retangulo.html">    7</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_retangulo.html">Retangulo</a> : <span class="keyword">public</span> <a class="code" href="class_figura_geometrica.html">FiguraGeometrica</a></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">int</span> xr0,yr0,alt,larg;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="class_retangulo.html#a60f77ab5ea08d07fa5d2556f84487154">Retangulo</a>(<span class="keywordtype">int</span> _xr0,<span class="keywordtype">int</span> _yr0,<span class="keywordtype">int</span> _alt,<span class="keywordtype">int</span> _larg);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_retangulo.html#ac088dd6d3f4f3d3f80363a868c2e74f1">draw</a>(<a class="code" href="class_screen.html">Screen</a> &amp;t);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;};</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif // RETANGULO_H</span></div><div class="ttc" id="class_retangulo_html_a60f77ab5ea08d07fa5d2556f84487154"><div class="ttname"><a href="class_retangulo.html#a60f77ab5ea08d07fa5d2556f84487154">Retangulo::Retangulo</a></div><div class="ttdeci">Retangulo(int _xr0, int _yr0, int _alt, int _larg)</div><div class="ttdoc">Retangulo Constructor da classe retangulo. </div><div class="ttdef"><b>Definition:</b> retangulo.cpp:3</div></div>
+<div class="ttc" id="class_screen_html"><div class="ttname"><a href="class_screen.html">Screen</a></div><div class="ttdef"><b>Definition:</b> screen.h:7</div></div>
+<div class="ttc" id="class_figura_geometrica_html"><div class="ttname"><a href="class_figura_geometrica.html">FiguraGeometrica</a></div><div class="ttdef"><b>Definition:</b> figurageometrica.h:5</div></div>
+<div class="ttc" id="figurageometrica_8h_html"><div class="ttname"><a href="figurageometrica_8h.html">figurageometrica.h</a></div></div>
+<div class="ttc" id="class_retangulo_html_ac088dd6d3f4f3d3f80363a868c2e74f1"><div class="ttname"><a href="class_retangulo.html#ac088dd6d3f4f3d3f80363a868c2e74f1">Retangulo::draw</a></div><div class="ttdeci">void draw(Screen &amp;t)</div><div class="ttdoc">draw Manda instruções para se desenhar um retangulo </div><div class="ttdef"><b>Definition:</b> retangulo.cpp:10</div></div>
+<div class="ttc" id="class_retangulo_html"><div class="ttname"><a href="class_retangulo.html">Retangulo</a></div><div class="ttdoc">The Retangulo class Serve para desenhar o retangulo. </div><div class="ttdef"><b>Definition:</b> retangulo.h:7</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
