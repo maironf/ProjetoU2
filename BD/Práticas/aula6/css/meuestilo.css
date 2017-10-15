@@ -1,0 +1,45 @@
+
+   .login-page
+{
+    
+   }
+h1{
+	font-style: italic;
+}
+#fundoi{
+  background-color: black;
+  }
+#fundo{
+	background-color: white;
+}
+#fundod{
+	background-color: #F8F8FF;
+}
+.paragrafo{
+	color: red;
+}
+.paragrafo2{
+	color: white;
+}
+#sidebar{
+	float: right;
+	width:300px;
+	}
+#sidebar ul{
+	list-style: none;
+	
+}
+#sidebar ul li a{
+	color: #ff6600;
+	text-decoration: none;
+	
+}
+#sidebar ul li a:hover {
+	text-decoration:underline;
+}
+#content {
+	float: left;
+	width:650px;
+}
+
+
